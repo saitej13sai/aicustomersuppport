@@ -6,7 +6,7 @@ from google.oauth2.service_account import Credentials
 from datetime import datetime
 
 # Configure Google Gemini API
-genai.configure(api_key="AIzaSyDUvbyMHm5M5fkQXR5itUALhMH5XqQ4FRs")
+genai.configure(api_key="AIzaSyDUvbyMHm5M5fkQXR5itUs")
 model = genai.GenerativeModel("gemini-1.5-pro")
 
 # Google Sheets Setup
